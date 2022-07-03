@@ -1,0 +1,50 @@
+.productContainer {
+  margin: 4px;
+  min-width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.productInfo {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(166, 166, 166, 0.347);
+    opacity: 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.productInfo:hover {
+    opacity: 1;
+}
+
+.productImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.infoIcon, .cartIcon, .likeIcon {
+    margin: 5px;
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.heartIcon {
+    margin: 5px;
+    font-size: 30px;
+    color: crimson;
+    transition: all 0.5s ease;
+}
+
+.infoIcon:hover, .cartIcon:hover, .heartIcon, .likeIcon:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,32 @@
+.homeContainer {
+    display: flex;
+    flex: 8;
+}
+.widgetRoute {
+    cursor: pointer;
+}
+
+.pageContainer {
+    flex: 8;
+}
+
+.widgetsWrapper, .charts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.charts {
+    padding: 20px;
+}
+
+.listContainer {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.5);
+}
+
+.listTitle {
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+}

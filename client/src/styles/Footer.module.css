@@ -1,0 +1,85 @@
+.footerContainer {
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 35vh;
+    background-color: rgb(100, 100, 100);
+}
+
+.sectionContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerTitle {
+    margin-bottom: 10px;
+}
+
+.footerHr {
+    width: 40%;
+}
+
+.footerDescription {
+    text-align: left;
+    width: 300px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.socialTelega, .socialInsta, .socialVk, .contactIcon {
+    font-size: 32px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.socialTelega:hover {
+    color: #0088cc;
+}
+
+.socialVk:hover {
+    color: #025ced;
+}
+
+.socialInsta:hover {
+    color: rgb(223, 14, 143);
+}
+
+.navIcon {
+    font-size: 24px;
+}
+
+.footerLink p {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.footerLink p:hover {
+    color: #fff;
+}
+
+.footerContacts, .footerLinks, .footerDescription {
+    margin-top: 3px;
+}
+
+.footerSocial {
+    margin-top: 10px;
+    display: flex;
+}
+
+.footerContact, .footerLink {
+    margin-top: 5px;
+    display: flex;
+}
+
+.footerContact p{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.footerLeft, .footerCenter, .footerRight {
+    flex: 1;
+}

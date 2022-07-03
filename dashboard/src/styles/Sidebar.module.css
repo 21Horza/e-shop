@@ -1,0 +1,76 @@
+.sideLogo img {
+    height: 48px;
+    padding: 10px;
+    width: 100%;
+    background-color: #434343;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+.sideContainer {
+    min-height: 100vh;
+    flex: 1;
+    border-right: 1px solid #000;
+}
+
+.sideList {
+    margin-left: 30px;
+}
+
+.sideList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sideList li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sideList li:hover {
+    background-color: #dedede;
+}
+
+.sideIcons {
+    margin-right: 10px;
+}
+
+.sideTitle {
+    margin: 15px 0 8px 0;
+    color: #808080;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.sideTitle span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #212121;
+    margin-left: 10px;
+}
+
+.sideColor {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.colorOption {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.colorOption:nth-child(1) {
+    background-color: whitesmoke;
+}
+
+.colorOption:nth-child(2) {
+    background-color: #333;
+}

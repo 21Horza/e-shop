@@ -1,0 +1,141 @@
+.cartContainer {
+    height: auto;
+}
+
+.cartTitle {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cartTop {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.continueBtn, .clearBtn {
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.clearBtn:hover {
+    color: #fff;
+    background-color: crimson;
+}
+
+.continueBtn {
+    background-color: #333333;
+    color: #fff;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.continueBtn:hover {
+    background-color: rgb(57, 210, 37);
+}
+
+.infoBox {
+    display: flex;
+}
+
+.itemBox {
+    display: flex;
+    border: 1px solid #000;
+    width: 70vw;
+    margin: 0 20px 20px;
+    height: 200px;
+}
+
+.itemBox img {
+    height: 100%;
+}
+
+.itemInfoBox {
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemLine {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 20px;
+}
+
+.itemLine .p, p{
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.itemPriceBox {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #000;
+}
+
+.quantity {
+    display: flex;
+    padding: 20px;
+}
+
+.quantity h2 {
+    margin: 0 5px;
+}
+
+.number {
+    padding: 0 15px;
+}
+
+.price {
+    padding: 10px;
+}
+
+.summary {
+    border: 2px solid #000;
+    flex: 1;
+    margin: 0 30px 30px 30px;
+    height: 300px;
+}
+
+.summaryHeader {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.shippingLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    margin-bottom: 20px;
+}
+
+.hrSummary {
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.summaryCheckoutBtn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summaryCheckoutBtn button {
+    box-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+   background-color: rgba(0, 180, 0, 0.973);
+   font-weight: 800;
+   color: #fff;
+   padding: 5px;
+   width: 70%;
+}
+
+.summaryCheckoutBtn button:hover {
+    background-color: rgb(6, 255, 6);
+    color: #000;
+}

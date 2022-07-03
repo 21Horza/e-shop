@@ -1,0 +1,45 @@
+.navContainer {
+    flex: 8;
+}
+
+.navWrapper {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #434343;
+}
+
+.navWrapper input {
+    width: 40vw;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.inputWrapper {
+    border-radius: 5px;
+    border: 1px solid #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 5px 0 5px 5px;
+}
+
+.searchIcon {
+    margin: 3px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.rightIcons {
+    display: flex;
+    margin: 0 10px 0 auto;
+}
+
+.navIcon {
+    color: #fff;
+    display: flex;
+    margin-right: 10px;
+    font-size: 30px;
+}

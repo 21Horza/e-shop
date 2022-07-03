@@ -1,0 +1,110 @@
+.newPage {
+    width: 100%;
+    display: flex;
+}
+
+.newContainer {
+    flex: 8;
+}
+
+.newTop, .newBottom {
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+.newTop h1 {
+    margin: auto;
+    color: lightgray;
+    font-size: 20px;
+}
+
+.newLeft {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.newLeft img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.newLeft .formInput {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newRight {
+    flex: 2;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.formInput {
+    width: 40%;
+}
+
+.formInput input {
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #434343;
+}
+
+.formInput label {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.newIcon {
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sendBtn {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+
+.btns {
+    text-align: end;
+}
+.sendBtn:hover {
+    color: #fff;
+    background-color: #434343;
+}
+
+.newOption {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #434343;
+}

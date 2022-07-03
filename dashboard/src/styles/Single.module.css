@@ -1,0 +1,88 @@
+.singlePage {
+    display: flex;
+    width: 100%;
+}
+
+.singleContainer {
+    flex: 8;
+}
+
+.singleTop {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.singleLeft {
+    border-radius: 20px;
+    flex: 1;
+    padding: 20px;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.5);
+    position: relative;
+}
+
+.singleRight {
+    flex: 2;
+}
+
+.singleItem {
+    display: flex;
+    gap: 15px;
+}
+
+.signleImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.editBtn {
+    border: none;
+    border-radius: 0 20px 0 20px;
+    cursor: pointer;
+    position: absolute;
+    padding: 5px;
+    font-size: 25px;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.2);
+    top: 0;
+    right: 0;
+    width: 80px;
+    text-align: center;
+}
+
+.editBtn:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.details .itemTitle {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.detailItem {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.itemKey {
+    font-size: 25px;
+    font-weight: 800;
+    color: #434343;
+    margin-right: 10px;
+}
+
+.itemValue {
+    font-size: 25px;
+}
+
+.singleTitle {
+    font-size: 25px;
+    color: #212122;
+    margin-bottom: 20px;
+}

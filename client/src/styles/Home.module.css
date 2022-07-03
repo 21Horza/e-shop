@@ -1,0 +1,70 @@
+.navbarNotify {
+    text-align: center;
+    background-color: crimson;
+}
+.navbarNotify h3 {
+    color: #fff;
+    padding: 5px 0 5px 0;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(115, 115, 115);
+}
+
+
+.navbarLogo {
+    margin-left: 20px;
+}
+
+.navbarLogo img {
+    cursor: pointer;
+}
+
+.navbarInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    width: 50vw;
+}
+
+.logo {
+    height: 30px;
+    width: 100px;
+}
+
+.navbarRightPannel {
+    display: flex;
+}
+
+.navbarCart {
+    font-size: 40px;
+    color: #fff;
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.cartCorner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cartCorner span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: crimson;
+    position: absolute;
+    font-weight: 800;
+    right: 0;
+}

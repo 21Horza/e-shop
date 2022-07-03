@@ -1,0 +1,76 @@
+.datatable {
+    padding: 20px;
+    height: 600px;
+}
+
+.datagrid {
+    padding: 10px;
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.addUser {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.addUser button {
+    background-color: rgba(0, 128, 0, 0.2);
+    color: green;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: auto;
+}
+.addUser button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.dataTableContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+.cellWithImg {
+    display: flex;
+    align-items: center;
+}
+
+.cellImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.viewBtn {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px dotted rgba(0, 0, 139, 0.5);
+    cursor: pointer;
+}
+
+.delBtn {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px dotted rgba(220, 20, 60, 0.5);
+    cursor: pointer;
+}

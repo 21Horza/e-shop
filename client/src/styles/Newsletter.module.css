@@ -1,0 +1,45 @@
+.newsletterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgb(157, 157, 157);
+}
+
+.newsletterTitle {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.newsletterDescription {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.inputContainer {
+    width: 50vw;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.newsletterInput {
+    padding-left: 25px;
+    font-size: 20px;
+    border: none;
+    flex: 8;
+}
+
+.newsletterBtn {
+    flex: 2;
+    border: none;
+    background-color: rgba(10, 198, 0, 0.996);
+}
+
+.sendIcon {
+    font-size: 30px;
+    cursor: pointer;
+}

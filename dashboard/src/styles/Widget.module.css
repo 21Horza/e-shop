@@ -1,0 +1,50 @@
+.widgetContainer {
+    display: flex;
+    padding: 20px;
+    flex: 1;
+    justify-content: space-between;
+    margin: 10px 10px 0 10px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.5);
+}
+
+.widWrapper {
+    display: flex;
+}
+
+.widLeft, .widRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.widTitle {
+    font-weight: 500;
+    font-size: 15px;
+    color: #808080;
+}
+
+.widCounter {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.widlink {
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.widPercentage {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.userIcon {
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    align-self: flex-end;
+}

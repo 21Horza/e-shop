@@ -1,0 +1,30 @@
+.featContainer {
+    flex: 3;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.featTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.featBottom {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(178, 178, 178, 0.61);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.5);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.featBottom p{
+    font-size: 40px;
+    font-weight: 800;
+}

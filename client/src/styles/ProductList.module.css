@@ -1,0 +1,13 @@
+.select {
+    margin: 20px 50px 0 0;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.select h2 {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 10px;
+}

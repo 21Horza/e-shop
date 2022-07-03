@@ -1,0 +1,110 @@
+.productWrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.productImgContainer {
+    flex: 1;
+}
+
+.productImage {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.productInfoContainer {
+    flex: 1;
+    padding: 0 50px;
+}
+
+/* title */
+.productInfoContainer h1 { 
+    font-weight: 300;
+}
+
+/* description */
+.productInfoContainer p { 
+    margin: 20px 0;
+}
+
+/* price */
+.productInfoContainer h2 { 
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.selectWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.colorSelect {
+    margin: 10px 0 0 50px;
+}
+
+.colorSelect h1, .sizeSelect h1 {
+    margin-bottom: 10px;
+}
+
+.sizeSelect {
+    margin: 10px 0 0 0;
+}
+
+.colorIcon {
+    color: color;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+}
+
+.colorIcon:hover {
+    transform: scale(1.1);
+}
+
+.addContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.amountContainer {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.amount {
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delAmount {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.addAmount {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.addBtn {
+    font-weight: 800;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    color: #fff;
+    background-color: rgb(0, 202, 0);
+}
