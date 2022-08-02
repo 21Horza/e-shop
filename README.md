@@ -10,4 +10,4 @@ Notes:
 ================
 
 1. After registration user receives a notification to verify account. 
-2. Admin dashboard is available locally. The source code is in dashboard folder.
+2. Admin dashboard is available locally as well. Dashboard should be open in another port.
